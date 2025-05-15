@@ -77,18 +77,46 @@ When you want to forcefully reload, for example to reset the state of your app, 
 
 You've successfully run and modified your React Native App. :partying_face:
 
-### Now what?
+# 🔐 Password Generator App
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+A customizable and secure **password generator** built with **React Native**. Generate strong passwords with user-selected criteria, and copy or share them with a tap.
 
-# Troubleshooting
+![React Native](https://img.shields.io/badge/React%20Native-2025-blue?logo=react&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Android%20%7C%20iOS-lightgrey)
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+---
 
-# Learn More
+## ✨ Features
 
-To learn more about React Native, take a look at the following resources:
+- ✅ Set custom password length (4–15)
+- 🔠 Toggle character options:
+  - Lowercase
+  - Uppercase
+  - Numbers
+  - Symbols
+- 📋 Copy password to clipboard
+- 📤 Share password via system share dialog
+- 🔄 Reset all settings
+
+---
+
+## 🧱 Tech Stack
+
+- ⚛️ React Native
+- 🔒 Yup (input validation)
+- 📋 `@react-native-clipboard/clipboard` (clipboard support)
+- 📤 React Native Share API
+
+---
+
+## 🚀 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/password-generator-app.git
+cd password-generator-app
 
 - [React Native Website](https://reactnative.dev) - learn more about React Native.
 - [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
